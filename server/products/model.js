@@ -8,7 +8,7 @@ class Product {
     this.model = product.model;
     this.type = product.type;
     this.length = product.length;
-    this.join = product.joint;
+    this.joint = product.joint;
     this.price = product.price;
     this.picture = product.picture;
   }
