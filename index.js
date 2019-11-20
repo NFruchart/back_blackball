@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoose.set("useCreateIndex", true);
 
 mongoose.connect(
-  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-zcylk.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
+  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-hvz4l.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
